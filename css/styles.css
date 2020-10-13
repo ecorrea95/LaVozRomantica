@@ -17,6 +17,11 @@
   font-size: 1.0rem;
 }
 
+.height {
+  height: 300px;
+  object-fit: cover;
+}
+
 .btn:focus, .btn:active, button:focus, button:active {
   outline: none !important;
   box-shadow: none !important;
@@ -26,7 +31,13 @@
   display: block;
 }
 
-.thumb{
+.thumb {
   margin-top: 15px;
   margin-bottom: 15px;
+}
+
+.sized {
+  width: 250px;
+  height: 170px;
+  object-fit: cover;
 }
