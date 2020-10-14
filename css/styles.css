@@ -61,19 +61,21 @@
 }
 
 .whatsapp-icon:hover {
-  color: green;
-  transform: rotateY(360deg);
-  
+  color: #075e54;
+  transform: scale(1.5);
 }
 
 .facebook-icon:hover {
-  color: blue;
+  color: #3b5998;
+  transform: scale(1.5);
 }
 
 .gmail-icon:hover {
-  color: red;
+  color: #ea4335;
+  transform: scale(1.5);
 }
 
 .youtube-icon:hover {
-  color: red;
+  color: #ff0000;
+  transform: scale(1.5);
 }
