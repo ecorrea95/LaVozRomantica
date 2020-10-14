@@ -41,3 +41,12 @@
   height: 170px;
   object-fit: cover;
 }
+
+.video {
+  width: 570px;
+  height: 427px;
+}
+
+.paddingtop {
+  padding-top: 3%;
+}

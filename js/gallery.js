@@ -18,11 +18,13 @@ for (var i=0; i<cant; i++) {
 
   // Img dentro del tag a y seteo atributos
   a_tag.appendChild(image);
-  a_tag.setAttribute('href',"#");
-  a_tag.setAttribute('data-image',numero);
-  a_tag.setAttribute('data-toggle',"modal");
-  a_tag.setAttribute('data-target',"#image-gallery");
   a_tag.setAttribute('class',"thumbnail");
+  a_tag.setAttribute('href',"#");
+  a_tag.setAttribute("data-image-id","");
+  a_tag.setAttribute('data-toggle',"modal");
+  a_tag.setAttribute('data-title',"");
+  a_tag.setAttribute('data-image',numero);
+  a_tag.setAttribute('data-target',"#image-gallery");
 
   //Img y atributos
   image.src = numero;
