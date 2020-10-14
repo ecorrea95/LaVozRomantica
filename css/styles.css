@@ -50,3 +50,15 @@
 .paddingtop {
   padding-top: 3%;
 }
+
+.icon {
+  transform: scale(3);
+}
+
+.whatsapp-icon, .facebook-icon, .gmail-icon, .youtube-icon {
+  transition: transform 0.4s;
+}
+
+.whatsapp-icon:hover {
+  color:green;
+}
