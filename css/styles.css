@@ -56,9 +56,24 @@
 }
 
 .whatsapp-icon, .facebook-icon, .gmail-icon, .youtube-icon {
-  transition: transform 0.4s;
+  transition: all 0.4s;
+  color: grey;
 }
 
 .whatsapp-icon:hover {
-  color:green;
+  color: green;
+  transform: rotateY(360deg);
+  
+}
+
+.facebook-icon:hover {
+  color: blue;
+}
+
+.gmail-icon:hover {
+  color: red;
+}
+
+.youtube-icon:hover {
+  color: red;
 }
