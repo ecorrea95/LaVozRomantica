@@ -88,6 +88,14 @@ body {
   object-fit: cover;
 }
 
+#more1, #more2, #more3 {
+	display: none;
+}
+
+#seeMore1, #seeMore2, #seeMore3 {
+	cursor: pointer;
+}
+
 .btn:focus, .btn:active, button:focus, button:active {
   outline: none !important;
   box-shadow: none !important;
