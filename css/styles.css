@@ -1,4 +1,6 @@
-/* EL ROJO CON MENU */
+body {
+	font-family: "Berlin Sans FB";
+}
 
 .float{
 	position:fixed;
@@ -68,18 +70,16 @@
   font-family: "Edwardian Script ITC";
 }
 
-.berlin-sans-titulo {
-  font-family: "Berlin Sans FB";
+.titulo {
+	font-family: "Berlin Sans FB";
   font-size: 2.5rem;
 }
 
-.berlin-sans {
-  font-family: "Berlin Sans FB";
+.normal-size {
   font-size: 1.5rem;
 }
 
-.berlin-sans-btn {
-  font-family: "Berlin Sans FB";
+.small-size {
   font-size: 1.0rem;
 }
 
