@@ -1,0 +1,13 @@
+section {
+    background-color: red;
+}
+
+.full-container {
+    height: 92vh;
+}
+
+img {
+    max-width: 700px;
+    margin: auto;
+    padding: 10px;
+}
