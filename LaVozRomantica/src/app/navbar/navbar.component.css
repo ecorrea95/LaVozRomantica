@@ -4,4 +4,5 @@
     background-color: rgba(149 85 85 / 20%);
     top: 0;
     position: sticky;
+    z-index: 1;
 }
