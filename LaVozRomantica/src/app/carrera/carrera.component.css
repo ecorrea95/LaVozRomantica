@@ -4,5 +4,6 @@ img {
 }
 
 .full-container {
-	height: 92vh;
+	min-height: 92vh;
+    height: fit-content;
 }
