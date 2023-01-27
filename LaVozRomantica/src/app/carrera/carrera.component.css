@@ -1,8 +1,7 @@
 .full-container {
     min-height: 92vh;
     height: fit-content;
-    /* background-color: #9f0000b8; */
-    /* background: linear-gradient(#EBD4CB, #DA9F93); */
+    background: linear-gradient(white 80%, #DA9F93);
 }
 
 .divider {
