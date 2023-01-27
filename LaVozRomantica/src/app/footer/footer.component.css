@@ -4,7 +4,7 @@ section {
 
 a {
     text-decoration: none;
-    color: black;
+    color: #491f14;
 }
 
 .icon {
@@ -31,6 +31,30 @@ a {
 
 .facebook:hover a .text {
     color: blue;
+    transform: scale(1.5) translateY(-5%);
+    transition: ease 1s;
+}
+
+.email:hover a .icon .fa-envelope {
+    color: lightsteelblue;
+    transform: scale(1.5) translateY(-20%);
+    transition: ease 1s;
+}
+
+.email:hover a .text {
+    color: lightsteelblue;
+    transform: scale(1.5) translateY(-5%);
+    transition: ease 1s;
+}
+
+.youtube:hover a .icon .fa-youtube {
+    color: red;
+    transform: scale(1.5) translateY(-20%);
+    transition: ease 1s;
+}
+
+.youtube:hover a .text {
+    color: red;
     transform: scale(1.5) translateY(-5%);
     transition: ease 1s;
 }
