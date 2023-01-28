@@ -1,0 +1,17 @@
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-image: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url("../../assets/images/masthead.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.divider {
+  background-color: #a42300;
+  border-color: #a42300;
+  height: 5px;
+  opacity: 1;
+  width: 60%;
+  margin-inline: auto;
+}

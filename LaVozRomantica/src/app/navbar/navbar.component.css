@@ -1,0 +1,13 @@
+.navbar {
+    bottom: 0;
+    position: absolute;
+    background-color: rgba(164, 35, 0, 0.6);
+    top: 0;
+    position: sticky;
+    z-index: 1;
+}
+
+.navbar-scrolled {
+    background-color: rgb(164, 35, 0);
+
+}

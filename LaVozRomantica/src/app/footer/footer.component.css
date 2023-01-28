@@ -1,0 +1,89 @@
+section {
+    background-color: #9e9b9d;
+    padding-bottom: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: #491f14;
+}
+
+.icon {
+    font-size: 3rem;
+}
+
+.whatsapp:hover a .icon .fa-whatsapp {
+    color: green;
+    transform: scale(1.5) translateY(-20%);
+    transition: ease 1s;
+}
+
+.whatsapp:hover a .text {
+    color: green;
+    transform: scale(1.5) translateY(-5%);
+    transition: ease 1s;
+}
+
+.facebook:hover a .icon .fa-facebook {
+    color: blue;
+    transform: scale(1.5) translateY(-20%);
+    transition: ease 1s;
+}
+
+.facebook:hover a .text {
+    color: blue;
+    transform: scale(1.5) translateY(-5%);
+    transition: ease 1s;
+}
+
+.email:hover a .icon .fa-envelope {
+    color: lightsteelblue;
+    transform: scale(1.5) translateY(-20%);
+    transition: ease 1s;
+}
+
+.email:hover a .text {
+    color: lightsteelblue;
+    transform: scale(1.5) translateY(-5%);
+    transition: ease 1s;
+}
+
+.youtube:hover a .icon .fa-youtube {
+    color: red;
+    transform: scale(1.5) translateY(-20%);
+    transition: ease 1s;
+}
+
+.youtube:hover a .text {
+    color: red;
+    transform: scale(1.5) translateY(-5%);
+    transition: ease 1s;
+}
+
+.copyright {
+    font-size: 0.8rem;
+}
+
+.copyright-developer {
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 560px) {
+    .icon {
+        font-size: 2rem;
+    }
+    .text {
+        font-size: 0.8rem;
+    }
+    .copyright {
+        font-size: 0.5rem;
+    }    
+}
+
+@media (max-width: 430px) {
+    .icon {
+        font-size: 1.5rem;
+    }
+}
