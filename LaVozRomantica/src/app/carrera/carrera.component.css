@@ -1,6 +1,7 @@
 .full-container {
     min-height: 92vh;
     height: fit-content;
+    max-height: 100vh;
     background: linear-gradient(white 80%, #DA9F93);
 }
 
@@ -20,6 +21,11 @@ h4 {
 
 .card {
     border: 2px solid #a42300;
+}
+
+.card-body {
+    max-height: 25rem;
+    overflow: auto;
 }
 
 .card-header {
@@ -57,3 +63,26 @@ img {
     width: fit-content;
     margin: auto;
 }
+
+@media (max-width: 767px) {
+    img {
+        display: none;
+    }
+    .card-body {
+        padding: 10px;
+        font-size: 0.9rem!important;
+    }
+    .list {
+        margin-bottom: 0!important;
+    }
+    h4 {
+        font-size: 1.3rem;
+    }
+}
+
+@media (max-width: 500px) {
+    .m-4 {
+        margin: 0!important;
+    }
+}
+  

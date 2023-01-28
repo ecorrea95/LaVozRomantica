@@ -1,5 +1,6 @@
 section {
     background-color: #9e9b9d;
+    padding-bottom: 10px;
 }
 
 a {
@@ -57,4 +58,32 @@ a {
     color: red;
     transform: scale(1.5) translateY(-5%);
     transition: ease 1s;
+}
+
+.copyright {
+    font-size: 0.8rem;
+}
+
+.copyright-developer {
+    text-decoration: underline;
+    color: white;
+    cursor: pointer;
+}
+
+@media (max-width: 560px) {
+    .icon {
+        font-size: 2rem;
+    }
+    .text {
+        font-size: 0.8rem;
+    }
+    .copyright {
+        font-size: 0.5rem;
+    }    
+}
+
+@media (max-width: 430px) {
+    .icon {
+        font-size: 1.5rem;
+    }
 }

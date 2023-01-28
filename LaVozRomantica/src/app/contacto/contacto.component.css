@@ -30,3 +30,9 @@ img {
     background-color: #a42300;
     border: 0;
 }
+
+@media (max-width: 767px) {
+    img {
+        display: none;
+    }
+}
