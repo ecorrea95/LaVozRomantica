@@ -23,6 +23,7 @@ h4 {
 }
 
 .card-header {
+    background-color: #DBA094;
     border-bottom: 2px solid #a42300;
 }
 
@@ -31,15 +32,20 @@ h4 {
     font-weight: 400;
 }
 
+.nav-link:hover {
+    border: 1px solid #a42300;
+}
+
 .nav-item {
     width: 33%;
 }
 
 .nav-item .active {
-    color: #a42300 !important;
+    background-color: #a42300;
+    color: white !important;
     text-decoration: underline;
     font-weight: 500;
-    border: 2px solid #a42300;
+    border: 1px solid black;
 }
 
 img { 
