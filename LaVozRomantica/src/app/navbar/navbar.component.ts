@@ -12,7 +12,7 @@ import { trigger, state, style, transition, animate } from '@angular/animations'
         opacity: 0
       })),
       transition(':enter', [
-        animate(300, style({
+        animate(600, style({
           transform: 'translateY(0)',
           opacity: 1
         }))

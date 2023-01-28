@@ -8,24 +8,24 @@ import { trigger, style, transition, animate, state } from '@angular/animations'
   animations: [
     trigger('enterTitle', [
       state('void', style({
-        transform: 'translateX(-100%)',
-        // opacity: 0
-      })),
-      transition(':enter', [
-        animate(1000, style({
-          transform: 'translateX(0)',
-          // opacity: 1
-        }))
-      ])
-    ]),
-    trigger('enterMasthead', [
-      state('void', style({
-        backdropFilter: 'brightness(0%)',
+        transform: 'translateY(-100%)',
         opacity: 0
       })),
       transition(':enter', [
-        animate(300, style({
-          backdropFilter: 'brightness(100%)',
+        animate(800, style({
+          transform: 'translateY(0)',
+          opacity: 1
+        }))
+      ])
+    ]),
+    trigger('enterSubtitle', [
+      state('void', style({
+        transform: 'translateY(+100%)',
+        opacity: 0
+      })),
+      transition(':enter', [
+        animate(1600, style({
+          transform: 'translateY(0)',
           opacity: 1
         }))
       ])
